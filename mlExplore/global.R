@@ -1,15 +1,32 @@
 
 library(reticulate)
 library(dplyr)
+library(data.table)
 library(DT)
-library(readr)
 library(stringr)
+
+library(mltools)
 
 library(tictoc)
 
 library(shinydashboard)
 library(shinyEffects)
 
-# source('~/R/default_param.R')
+library(shinyAce)
 
-# py_run_file('plot.py')            # juste pour initialiser le display ...je n'ai rien trouvé de mieux
+
+pafexemples='exemples'
+pafdata='data'
+
+# ==========================================================================================
+# TO DO
+
+# 1) upload fichiers utilisateurs. Fait
+
+# 2) modeles proposés : 
+# lecture dans un fichier .csv fait
+
+# 3) scripts .py et .R standardisés
+  
+# ==========================================================================================
+
